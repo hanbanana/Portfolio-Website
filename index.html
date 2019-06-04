@@ -21,6 +21,9 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
 
     <!--jQuery CDN-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -42,11 +45,11 @@
                     <a href="" class="navbar-brand">Home</a>
                 </div>
                 <div class="mx-auto order-0">
-                        <a class="navbar-brand mx-auto" href="#">Logo</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
+                    <a class="navbar-brand mx-auto" href="#">Logo</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
                 <div id="navbar-main">
                     <a href="#" onclick="openNav()" id="nav-menu">&#9776;</a>
                 </div>
@@ -57,7 +60,7 @@
 
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
+            <a href="#aboutMe">About</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#">Clients</a>
             <a href="#">Contact</a>
@@ -68,8 +71,8 @@
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <h1>hello world</h1>
-                        <h4>Web Developer | SUpport</h4>
+                        <h1>Hello World</h1>
+                        <h4>Web Developer | Support</h4>
                         <p>awfasfwaefwaefsf</p>
                         <p>awfasfwaefwaefsf</p>
                         <p>awfasfwaefwaefsf</p>
@@ -85,13 +88,191 @@
 
         </div>
 
-<div class="myPortfolio text-center" id="portfolio">
+        <br><br><br>
+        <div class="aboutMeDiv" id="aboutMe" onclick="closeNav()">
+            <div class="row ">
+                <div class="col-12 mb-4 position-relative">
+                    <h2 class="section-title">About Me</h2><br><br>
+                </div>
+                
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <img class="img-fluid mb-4" src="images/main-image.JPG" alt="Image">
+                    <p>Exceptionally creative and dependable Web Developer with stellar customer service record and
+                        superb
+                        work ethic.</p>
+                    <p>Broadly and deeply knowledgeable in a wide variety of computer languages as well as the
+                        principles and techniques of website construction and maintenance.</p>
+                    <p>Highly adept at conveying complex technical
+                        information to a variety of professional and lay audiences in a clear and understandable manner.
+                    </p>
+                </div>
+                <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
+                    <div class="mb-5">
+                        <strong class="text-black"><i class="fab fa-html5"></i></strong>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 89%;">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <strong class="text-black"><i class="fab fa-css3-alt"></i></strong>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 75%;">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <strong class="text-black"><i class="fab fa-js-square"></i></strong>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 94%;">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <strong class="text-black"><i class="fab fa-react"></i></strong>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 94%;">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <strong class="text-black"><i class="fab fa-node-js"></i></strong>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 94%;">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <strong class="text-black"><i class="fab fa-wordpress"></i></strong>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 94%;">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-<br>
-<h1>Portfolio</h1>
+            </div>
+        </div>
+        
+
+        <!-- <div class="aboutMeDiv" id="aboutMe" onclick="closeNav()">
+
+            <br>
+            <h1>About Me</h1>
+            <br><br>
+            <h4>Exceptionally creative and dependable Web Developer with stellar customer service record and superb
+                work
+                ethic. <br>Broadly and deeply knowledgeable in a wide variety of computer languages as well as the
+                principles
+                and techniques <br>of website construction and maintenance. Highly adept at conveying complex technical
+                information
+                to a variety of <br>professional and lay audiences in a clear and understandable manner.</h4>
 
 
-</div>
+
+
+            <div class="w-100">
+                <h3 class="mb-5">Skills</h3>
+
+                <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+                <ul class="list-inline dev-icons" id="skills">
+                    <li class="list-inline-item">
+                        <i class="fab fa-html5"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-css3-alt"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-js-square"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-react"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-node-js"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-wordpress"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-npm"></i>
+                    </li>
+                </ul>
+
+
+            </div> -->
+
+
+            <br><br>
+        <div class="myPortfolio text-center" id="portfolio" onclick="closeNav()">
+
+            <br>
+            <h1>My Portfolio</h1>
+            <br><br>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4 item">
+                    <a href="images/amazonCalculatorMainPage.png" class="item-wrap fancybox mb-4">
+                        <span class="icon-search2"></span>
+                        <img class="img-fluid" src="images/amazonCalculatorMainPage.png">
+                    </a>
+                    <a href="images/delivery-order-MainAndcreateOrder-page.PNG" class="item-wrap fancybox mb-4">
+                        <span class="icon-search2"></span>
+                        <img class="img-fluid" src="images/delivery-order-MainAndcreateOrder-page.PNG">
+                    </a>
+                    <a href="images/lotteryNumberGeneratorMain.PNG" class="item-wrap fancybox mb-4">
+                        <span class="icon-search2"></span>
+                        <img class="img-fluid" src="images/lotteryNumberGeneratorMain.PNG">
+                    </a>
+                    <a href="images/movie-search.JPG" class="item-wrap fancybox mb-4">
+                        <span class="icon-search2"></span>
+                        <img class="img-fluid" src="images/movie-search.JPG">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a href="images/stretchMainPage.png" class="item-wrap fancybox mb-4">
+                        <span class="icon-search2"></span>
+                        <img class="img-fluid" src="images/stretchMainPage.png">
+                    </a>
+                    <a href="images/movieSearchReactAppImage.PNG" class="item-wrap fancybox mb-4">
+                        <span class="icon-search2"></span>
+                        <img class="img-fluid" src="images/movieSearchReactAppImage.PNG">
+                    </a>
+                    <a href="images/user-open-ticket.png" class="item-wrap fancybox mb-4">
+                        <span class="icon-search2"></span>
+                        <img class="img-fluid" src="images/user-open-ticket.png">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a href="images/waitingListMainPage.png" class="item-wrap fancybox mb-4">
+                        <span class="icon-search2"></span>
+                        <img class="img-fluid" src="images/waitingListMainPage.png">
+                    </a>
+                    <a href="images/book-search.JPG" class="item-wrap fancybox mb-4">
+                        <span class="icon-search2"></span>
+                        <img class="img-fluid" src="images/book-search.JPG">
+                    </a>
+                    <a href="images/colorPickerMainPage.png" class="item-wrap fancybox mb-4">
+                        <span class="icon-search2"></span>
+                        <img class="img-fluid" src="images/colorPickerMainPage.png">
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
 
 
 
