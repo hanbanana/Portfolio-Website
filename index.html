@@ -62,7 +62,7 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="#aboutMe">About</a>
             <a href="#portfolio">Portfolio</a>
-            <a href="#">Clients</a>
+            <a href="#contactMe">Contact</a>
             <a href="#">Contact</a>
         </div>
 
@@ -76,7 +76,7 @@
                         <p>awfasfwaefwaefsf</p>
                         <p>awfasfwaefwaefsf</p>
                         <p>awfasfwaefwaefsf</p>
-                        <button type="button" class="btn btn-warning">Warning</button>
+                        <button type="button" class="btn" id="contactMeButton">Contact Me</button>
 
                     </div>
 
@@ -87,196 +87,260 @@
 
 
         </div>
+        <div class="mainContainerDiv">
+            <br><br><br>
+            <div class="aboutMeDiv" id="aboutMe" onclick="closeNav()">
+                <div class="row ">
+                    <div class="col-12 mb-4 position-relative">
+                        <h2 class="section-title">About Me</h2><br><br>
+                    </div>
 
-        <br><br><br>
-        <div class="aboutMeDiv" id="aboutMe" onclick="closeNav()">
-            <div class="row ">
-                <div class="col-12 mb-4 position-relative">
-                    <h2 class="section-title">About Me</h2><br><br>
+                    <div class="col-lg-6 order-2 order-lg-1">
+                        <img class="img-fluid mb-4" src="images/main-image.JPG" alt="Image">
+                        <p>Exceptionally creative and dependable Web Developer with stellar customer service record and
+                            superb
+                            work ethic.</p>
+                        <p>Broadly and deeply knowledgeable in a wide variety of computer languages as well as the
+                            principles and techniques of website construction and maintenance.</p>
+                        <p>Highly adept at conveying complex technical
+                            information to a variety of professional and lay audiences in a clear and understandable
+                            manner.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
+                        <div class="mb-5">
+                            <strong class="text-black"><i class="fab fa-html5"></i></strong>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 89%;">
+                                    <span>89%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <strong class="text-black"><i class="fab fa-css3-alt"></i></strong>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 75%;">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <strong class="text-black"><i class="fab fa-js-square"></i></strong>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 94%;">
+                                    <span>94%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <strong class="text-black"><i class="fab fa-react"></i></strong>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 94%;">
+                                    <span>94%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <strong class="text-black"><i class="fab fa-node-js"></i></strong>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 94%;">
+                                    <span>94%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <strong class="text-black"><i class="fab fa-wordpress"></i></strong>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 94%;">
+                                    <span>94%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                
-                <div class="col-lg-6 order-2 order-lg-1">
-                    <img class="img-fluid mb-4" src="images/main-image.JPG" alt="Image">
-                    <p>Exceptionally creative and dependable Web Developer with stellar customer service record and
-                        superb
-                        work ethic.</p>
-                    <p>Broadly and deeply knowledgeable in a wide variety of computer languages as well as the
-                        principles and techniques of website construction and maintenance.</p>
-                    <p>Highly adept at conveying complex technical
-                        information to a variety of professional and lay audiences in a clear and understandable manner.
-                    </p>
-                </div>
-                <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
-                    <div class="mb-5">
-                        <strong class="text-black"><i class="fab fa-html5"></i></strong>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-                                aria-valuemax="100" style="width: 89%;">
-                                <span>89%</span>
-                            </div>
-                        </div>
+            </div>
+
+
+            <br><br>
+            <div class="myPortfolio text-center" id="portfolio" onclick="closeNav()">
+
+                <br>
+                <h1>My Portfolio</h1>
+                <br><br>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 item">
+                        <a href="images/amazonCalculatorMainPage.png" class="item-wrap fancybox mb-4">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/amazonCalculatorMainPage.png">
+                            <i class="fas fa-search middle"></i>
+                        </a>
+                        <a href="images/delivery-order-MainAndcreateOrder-page.PNG" class="item-wrap fancybox mb-4">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/delivery-order-MainAndcreateOrder-page.PNG">
+                        </a>
+                        <a href="images/lotteryNumberGeneratorMain.PNG" class="item-wrap fancybox mb-4">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/lotteryNumberGeneratorMain.PNG">
+                        </a>
+                        <a href="images/movie-search.JPG" class="item-wrap fancybox mb-4">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/movie-search.JPG">
+                        </a>
                     </div>
-                    <div class="mb-5">
-                        <strong class="text-black"><i class="fab fa-css3-alt"></i></strong>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-                                aria-valuemax="100" style="width: 75%;">
-                                <span>75%</span>
-                            </div>
-                        </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a href="images/stretchMainPage.png" class="item-wrap fancybox mb-4">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/stretchMainPage.png">
+                        </a>
+                        <a href="images/movieSearchReactAppImage.PNG" class="item-wrap fancybox mb-4">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/movieSearchReactAppImage.PNG">
+                        </a>
+                        <a href="images/user-open-ticket.png" class="item-wrap fancybox mb-4">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/user-open-ticket.png">
+                        </a>
                     </div>
-                    <div class="mb-5">
-                        <strong class="text-black"><i class="fab fa-js-square"></i></strong>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-                                aria-valuemax="100" style="width: 94%;">
-                                <span>94%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-5">
-                        <strong class="text-black"><i class="fab fa-react"></i></strong>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-                                aria-valuemax="100" style="width: 94%;">
-                                <span>94%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-5">
-                        <strong class="text-black"><i class="fab fa-node-js"></i></strong>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-                                aria-valuemax="100" style="width: 94%;">
-                                <span>94%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-5">
-                        <strong class="text-black"><i class="fab fa-wordpress"></i></strong>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-                                aria-valuemax="100" style="width: 94%;">
-                                <span>94%</span>
-                            </div>
-                        </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a href="images/waitingListMainPage.png" class="item-wrap fancybox mb-4">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/waitingListMainPage.png">
+                        </a>
+                        <a href="images/book-search.JPG" class="item-wrap fancybox mb-4">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/book-search.JPG">
+                        </a>
+                        <a href="images/colorPickerMainPage.png" class="item-wrap fancybox mb-4">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/colorPickerMainPage.png">
+                        </a>
                     </div>
                 </div>
+
 
             </div>
         </div>
-        
 
-        <!-- <div class="aboutMeDiv" id="aboutMe" onclick="closeNav()">
-
+        <div class="myContactDiv text-center" id="contactMe" onclick="closeNav()">
             <br>
-            <h1>About Me</h1>
-            <br><br>
-            <h4>Exceptionally creative and dependable Web Developer with stellar customer service record and superb
-                work
-                ethic. <br>Broadly and deeply knowledgeable in a wide variety of computer languages as well as the
-                principles
-                and techniques <br>of website construction and maintenance. Highly adept at conveying complex technical
-                information
-                to a variety of <br>professional and lay audiences in a clear and understandable manner.</h4>
-
-
-
-
-            <div class="w-100">
-                <h3 class="mb-5">Skills</h3>
-
-                <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-                <ul class="list-inline dev-icons" id="skills">
-                    <li class="list-inline-item">
-                        <i class="fab fa-html5"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-css3-alt"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-js-square"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-react"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-node-js"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-wordpress"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-npm"></i>
-                    </li>
-                </ul>
-
-
-            </div> -->
-
-
-            <br><br>
-        <div class="myPortfolio text-center" id="portfolio" onclick="closeNav()">
-
-            <br>
-            <h1>My Portfolio</h1>
+            <h1>Say Hello</h1>
             <br><br>
 
             <div class="row">
-                <div class="col-md-6 col-lg-4 item">
-                    <a href="images/amazonCalculatorMainPage.png" class="item-wrap fancybox mb-4">
-                        <span class="icon-search2"></span>
-                        <img class="img-fluid" src="images/amazonCalculatorMainPage.png">
-                    </a>
-                    <a href="images/delivery-order-MainAndcreateOrder-page.PNG" class="item-wrap fancybox mb-4">
-                        <span class="icon-search2"></span>
-                        <img class="img-fluid" src="images/delivery-order-MainAndcreateOrder-page.PNG">
-                    </a>
-                    <a href="images/lotteryNumberGeneratorMain.PNG" class="item-wrap fancybox mb-4">
-                        <span class="icon-search2"></span>
-                        <img class="img-fluid" src="images/lotteryNumberGeneratorMain.PNG">
-                    </a>
-                    <a href="images/movie-search.JPG" class="item-wrap fancybox mb-4">
-                        <span class="icon-search2"></span>
-                        <img class="img-fluid" src="images/movie-search.JPG">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <a href="images/stretchMainPage.png" class="item-wrap fancybox mb-4">
-                        <span class="icon-search2"></span>
-                        <img class="img-fluid" src="images/stretchMainPage.png">
-                    </a>
-                    <a href="images/movieSearchReactAppImage.PNG" class="item-wrap fancybox mb-4">
-                        <span class="icon-search2"></span>
-                        <img class="img-fluid" src="images/movieSearchReactAppImage.PNG">
-                    </a>
-                    <a href="images/user-open-ticket.png" class="item-wrap fancybox mb-4">
-                        <span class="icon-search2"></span>
-                        <img class="img-fluid" src="images/user-open-ticket.png">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <a href="images/waitingListMainPage.png" class="item-wrap fancybox mb-4">
-                        <span class="icon-search2"></span>
-                        <img class="img-fluid" src="images/waitingListMainPage.png">
-                    </a>
-                    <a href="images/book-search.JPG" class="item-wrap fancybox mb-4">
-                        <span class="icon-search2"></span>
-                        <img class="img-fluid" src="images/book-search.JPG">
-                    </a>
-                    <a href="images/colorPickerMainPage.png" class="item-wrap fancybox mb-4">
-                        <span class="icon-search2"></span>
-                        <img class="img-fluid" src="images/colorPickerMainPage.png">
-                    </a>
+                <div class="col-12 mb-5">
+                    <h2 class="section-title text-center text-white mb-5">Say Hello</h2>
                 </div>
             </div>
+            <form action="#" class="form">
+                <div class="row mb-4">
+                    <div class="form-group col-6">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="form-group col-6">
+                        <input type="text" class="form-control" placeholder="Full name">
+                    </div>
+                </div>
 
+                <div class="row mb-4">
+                    <div class="form-group col-12">
+                        <input type="email" class="form-control" placeholder="Email address">
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="form-group col-12">
+                        <input type="text" class="form-control" placeholder="Subject of the message">
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="form-group col-12">
+                        <textarea name="" id="textArea" cols="30" rows="10" class="form-control"
+                            placeholder="Type your message here.."></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <button type="submit" class="btn" id="sendMessageButton">Send Message</button>
+                    </div>
+                </div>
+
+            </form>
 
         </div>
 
 
 
+        <br><br>
+        <footer class="site-section bg-light footer" onclick="closeNav()">
+            <div class="container">
 
+                <div class="row mb-5">
+                    <div class="col-md-3" id="footerTitle">
+                        <h3 class="footer-title">Han</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, animi.</p>
+                        <p><span class="d-inline-block d-md-block">1234 Main1 St.</span> Orange, California, USA</p>
+                    </div>
+                    <div class="col-md-5 mx-auto">
+                        <div class="row">
+                            <div class="col-lg-4 text-center">
+                                <h3 class="footer-title"><i class="far fa-envelope"></i></h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="mailto:hansung903@gmail.com">hansung903@gmail.com</a></li>
+                                    <!-- <li><a href="#">Portrait</a></li>
+                        <li><a href="#">Photography</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="col-lg-4">
+                                <!-- <h3 class="footer-title">Resources</h3>
+                      <ul class="list-unstyled">
+                        <li><a href="#">Wedding</a></li>
+                        <li><a href="#">Portrait</a></li>
+                        <li><a href="#">Photography</a></li>
+                      </ul> -->
+                            </div>
+                            <div class="col-lg-4 text-center">
+                                <h3 class="footer-title"><i class="fab fa-linkedin-in"></i></h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="https://www.linkedin.com/in/hansung903"
+                                            target="_blank">www.linkedin.com/in/hansung903</a></li>
+                                    <!-- <li><a href="#">Portrait</a></li>
+                        <li><a href="#">Photography</a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <!-- <h3 class="footer-title">Follow Me</h3>
+                  <a href="#" class="social-circle p-2"><span class="icon-twitter"></span></a>
+                  <a href="#" class="social-circle p-2"><span class="icon-facebook"></span></a>
+                  <a href="#" class="social-circle p-2"><span class="icon-instagram"></span></a>
+                  <a href="#" class="social-circle p-2"><span class="icon-dribbble"></span></a>
+                  <a href="#" class="social-circle p-2"><span class="icon-linkedin"></span></a> -->
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-12 text-center" id="endFooter">
+
+                        <p>Copyright © 2019 All rights reserved | Built by <a href="https://www.google.com"
+                                target="_blank" id="githubLink">H</a></p>
+
+
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 
 

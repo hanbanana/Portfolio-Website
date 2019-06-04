@@ -1,6 +1,7 @@
     
     body {
     font-family: "Lato", sans-serif;
+    
 
   }
 
@@ -13,6 +14,19 @@
 
 #carouselExampleSlidesOnly {
     margin-left: 400px;
+}
+
+#contactMeButton {
+  color: white;
+  background-color: orange;
+  border-radius: 20px;
+  -webkit-transition-duration: 0.7s; /* Safari */
+  transition-duration: 0.7s;
+}
+
+#contactMeButton:hover{
+  color: white;
+  background-color: black;
 }
 
 .navbar {
@@ -77,15 +91,142 @@
     margin-left: 50px;
   }
 
-  .aboutMeDiv {
-    margin-left: 400px;
-    margin-right: 400px;
+  .mainContainerDiv {
+    margin-left: 200px;
+    margin-right: 200px;
   } 
 
-  .myPortfolio {
-    margin-left: 400px;
-    margin-right: 400px;
-  } 
+
+
+  .fab {
+    font-size: 30px;
+    color: grey;
+  }
+
+  .progress-bar {
+    background-color: orange;
+  }
+
+  .img-fluid {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .item-wrap {
+    position: relative;
+  }
+
+  .item-wrap:hover .img-fluid {
+    opacity: 0.3;
+  }
+  
+  .item-wrap:hover .middle {
+    opacity: 1;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #contactMe {
+    background-color: orange;
+    color: white;
+  }
+
+
+  .form input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    background-color: orange;
+    
+}
+
+input {
+  color: white !important;
+}
+
+
+  .form {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  ::placeholder {
+    color: rgba(255, 255, 255, 0.671) !important;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white !important;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white !important;
+  }
+
+  form:focus, textarea:focus, select:focus{
+    outline: none !important;
+}
+
+.form-control:focus {
+    background-color: orange !important;  
+    outline: none !important;
+    box-shadow: none !important;
+    background: transparent;
+    border-bottom: 1px solid white;
+
+  }
+
+
+  #textArea {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    background-color: orange;
+    color: white;
+    
+  }
+
+  #sendMessageButton {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
+  }
+  
+  #sendMessageButton:hover{
+    color: white;
+    background-color: orange;
+  }
+
+  
+
+  #endFooter {
+    color: orange;
+  }
+
+  a {
+    color: orange;
+  }
+
+  
+
+
 
   @media screen and (max-width: 850px) {
     
@@ -105,8 +246,10 @@
       #nav-menu {
         margin-right: 20px;
       }
-
-
+      .mainContainerDiv {
+        margin-left: 100px;
+        margin-right: 100px;
+      } 
   }
   
   @media screen and (max-width: 500px) {
@@ -128,9 +271,13 @@
         margin-right: 20px;
       }
 
-      .aboutMeDiv {
-        text-align: center;
+      .mainContainerDiv {
+        margin-left: 20px;
+        margin-right: 20px;
       } 
 
+      #footerTitle {
+        text-align: center;
+      }
 
   }
