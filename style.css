@@ -29,6 +29,19 @@
   background-color: black;
 }
 
+#contactMeLink {
+  color: white;
+}
+
+#contactMeLink:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.progress-bar {
+  background-color: orange;
+}
+
 .navbar {
     background-color: black;
 }
@@ -92,10 +105,23 @@
   }
 
   .mainContainerDiv {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
   } 
 
+  .aboutMeDiv {
+    background-color: rgb(246, 246, 246);
+  }
+
+  .inAboutMe {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .inMyPortfolio {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 
 
   .fab {
@@ -103,44 +129,10 @@
     color: grey;
   }
 
-  .progress-bar {
-    background-color: orange;
-  }
 
-  .img-fluid {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-
-  .item-wrap {
-    position: relative;
-  }
-
-  .item-wrap:hover .img-fluid {
-    opacity: 0.3;
-  }
-  
-  .item-wrap:hover .middle {
-    opacity: 1;
-  }
-
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
 
   #contactMe {
-    background-color: orange;
+    background-color: rgb(255, 182, 45);
     color: white;
   }
 
@@ -150,13 +142,13 @@
     outline: 0;
     background: transparent;
     border-bottom: 1px solid white;
-    background-color: orange;
+    background-color: rgb(255, 182, 45);
     
-}
+  }
 
-input {
+  input {
   color: white !important;
-}
+  }
 
 
   .form {
@@ -182,7 +174,7 @@ input {
 }
 
 .form-control:focus {
-    background-color: orange !important;  
+    background-color: rgb(255, 182, 45) !important;  
     outline: none !important;
     box-shadow: none !important;
     background: transparent;
@@ -196,7 +188,7 @@ input {
     outline: 0;
     background: transparent;
     border-bottom: 1px solid white;
-    background-color: orange;
+    background-color: rgb(255, 182, 45);
     color: white;
     
   }
@@ -211,7 +203,7 @@ input {
   
   #sendMessageButton:hover{
     color: white;
-    background-color: orange;
+    background-color: rgb(255, 182, 45);
   }
 
   
@@ -222,10 +214,112 @@ input {
 
   a {
     color: orange;
+    outline: none !important;
   }
 
-  
+  a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+  }
 
+  /* My Portfolio */
+  .project {
+    width: 100%;
+    height: 500px;
+    background-image: url("images/amazonCalculatorMainPage.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0 !important;
+    float:left;
+    margin-bottom: 30px;
+  }
+
+  .project-2 {
+    background-image: url("images/movieSearchMainPage.PNG");
+  }
+  
+  .project-3 {
+    background-image: url("images/table-reservation.JPG");
+  }
+  
+  .project-4 {
+    background-image: url("images/book-search.JPG");
+  }
+
+  .project-5 {
+    background-image: url("images/delivery-order-MainAndcreateOrder-page.PNG");
+  }
+  
+  .project-6 {
+    background-image: url("images/waitingListMainPage.png");
+  }
+  
+  .project-7 {
+    background-image: url("images/mongoNoteAppMainPage.PNG");
+  }
+
+  .project-8 {
+    background-image: url("images/user-open-ticket.png");
+  }
+
+  .project-9 {
+    background-image: url("images/movieSearchReactAppImage.PNG");
+  }
+
+  .project-10 {
+    background-image: url("images/lotteryNumberGeneratorMain.PNG");
+  }
+  
+  .project-hover {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: rgba(90, 90, 89, 0.7);
+    padding: 40% 30px !important;
+  }
+  
+  .project-hover hr {
+    height: 30px;
+    width: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: rgba(255, 255, 255, 1);
+    border: 0;
+  }
+  
+  .project-hover a {
+    color: rgba(255, 255, 255, 1);
+    padding: 2px 22px;
+    line-height: 40px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .project-hover a:hover {
+    border-color: rgba(51, 51, 51, 1);
+    color: rgba(51, 51, 51, 1);
+    background-color: #FFF;
+  }
+  
+  .project:hover .project-hover {
+    opacity: 1;
+  }
+  
+  .project:hover .project-hover hr {
+    width: 100%;
+    height: 5px;
+  }
 
 
   @media screen and (max-width: 850px) {
@@ -278,6 +372,16 @@ input {
 
       #footerTitle {
         text-align: center;
+      }
+
+      .inAboutMe {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    
+      .inMyPortfolio {
+        margin-left: 20px;
+        margin-right: 20px;
       }
 
   }

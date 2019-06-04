@@ -71,12 +71,12 @@
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <h1>Hello World</h1>
-                        <h4>Web Developer | Support</h4>
-                        <p>awfasfwaefwaefsf</p>
-                        <p>awfasfwaefwaefsf</p>
-                        <p>awfasfwaefwaefsf</p>
-                        <button type="button" class="btn" id="contactMeButton">Contact Me</button>
+                        <h1>Hello World!</h1>
+                        <h2>I'm Hansung.</h2>
+                        <h4>Web Developer | IT Support</h4>
+                        <p>Front-end</p>
+                        <p>Back-end</p>
+                        <button type="button" class="btn" id="contactMeButton" href="#contactMe"><a href="#contactMe" id="contactMeLink">Contact Me</a></button>
 
                     </div>
 
@@ -87,11 +87,13 @@
 
 
         </div>
-        <div class="mainContainerDiv">
-            <br><br><br>
-            <div class="aboutMeDiv" id="aboutMe" onclick="closeNav()">
-                <div class="row ">
-                    <div class="col-12 mb-4 position-relative">
+
+
+        <div class="aboutMeDiv" id="aboutMe" onclick="closeNav()">
+            <div class="inAboutMe">
+                <div class="row">
+                    <div class="col-12 mb-4 position-relative text-center">
+                        <br><br><br>
                         <h2 class="section-title">About Me</h2><br><br>
                     </div>
 
@@ -166,72 +168,141 @@
 
                 </div>
             </div>
+        </div>
 
 
-            <br><br>
-            <div class="myPortfolio text-center" id="portfolio" onclick="closeNav()">
-
+        <br><br>
+        <div class="myPortfolio text-center" id="portfolio" onclick="closeNav()">
+            <div class="inMyPortfolio">
                 <br>
                 <h1>My Portfolio</h1>
                 <br><br>
 
                 <div class="row">
-                    <div class="col-md-6 col-lg-4 item">
-                        <a href="images/amazonCalculatorMainPage.png" class="item-wrap fancybox mb-4">
-                            <span class="icon-search2"></span>
-                            <img class="img-fluid" src="images/amazonCalculatorMainPage.png">
-                            <i class="fas fa-search middle"></i>
-                        </a>
-                        <a href="images/delivery-order-MainAndcreateOrder-page.PNG" class="item-wrap fancybox mb-4">
-                            <span class="icon-search2"></span>
-                            <img class="img-fluid" src="images/delivery-order-MainAndcreateOrder-page.PNG">
-                        </a>
-                        <a href="images/lotteryNumberGeneratorMain.PNG" class="item-wrap fancybox mb-4">
-                            <span class="icon-search2"></span>
-                            <img class="img-fluid" src="images/lotteryNumberGeneratorMain.PNG">
-                        </a>
-                        <a href="images/movie-search.JPG" class="item-wrap fancybox mb-4">
-                            <span class="icon-search2"></span>
-                            <img class="img-fluid" src="images/movie-search.JPG">
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <a href="images/stretchMainPage.png" class="item-wrap fancybox mb-4">
-                            <span class="icon-search2"></span>
-                            <img class="img-fluid" src="images/stretchMainPage.png">
-                        </a>
-                        <a href="images/movieSearchReactAppImage.PNG" class="item-wrap fancybox mb-4">
-                            <span class="icon-search2"></span>
-                            <img class="img-fluid" src="images/movieSearchReactAppImage.PNG">
-                        </a>
-                        <a href="images/user-open-ticket.png" class="item-wrap fancybox mb-4">
-                            <span class="icon-search2"></span>
-                            <img class="img-fluid" src="images/user-open-ticket.png">
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <a href="images/waitingListMainPage.png" class="item-wrap fancybox mb-4">
-                            <span class="icon-search2"></span>
-                            <img class="img-fluid" src="images/waitingListMainPage.png">
-                        </a>
-                        <a href="images/book-search.JPG" class="item-wrap fancybox mb-4">
-                            <span class="icon-search2"></span>
-                            <img class="img-fluid" src="images/book-search.JPG">
-                        </a>
-                        <a href="images/colorPickerMainPage.png" class="item-wrap fancybox mb-4">
-                            <span class="icon-search2"></span>
-                            <img class="img-fluid" src="images/colorPickerMainPage.png">
-                        </a>
-                    </div>
-                </div>
 
+
+
+                    <!-- 1st Column -->
+                    <div class="col-md-6 col-lg-4 item">
+                        <div class="project">
+                            <div class="project-hover">
+                                <h2>Amazon FBA Profit Calculator</h2>
+
+                                <hr />
+                                <p>jQuery, Node.js</p>
+                                <a href="https://amazon-fba-profit-calculator.herokuapp.com/" target="_blank">See Project</a>
+                            </div>
+                        </div>
+
+                        <div class="project project-2">
+                            <div class="project-hover">
+                                <h2>Movie Search API App</h2>
+
+                                <hr />
+                                <p>HTML, CSS, Bootstrap, JavaScript, jQuery, AJAX, MySQL, NPM, Node.js, API</p>
+                                <a href="https://movie-search-api-app.herokuapp.com/" target="_blank">See Project</a>
+                            </div>
+                        </div>
+
+                        <div class="project project-3">
+                            <div class="project-hover">
+                                <h2>Table Reservation App</h2>
+
+                                <hr />
+                                <p>HTML, CSS, Bootstrap, Node.js, Express</p>
+                                <a href="https://github.com/hanbanana/Table-Reservation" target="_blank">See Project</a>
+                            </div>
+                        </div>
+
+                        <div class="project project-4">
+                            <div class="project-hover">
+                                <h2>Book Search App</h2>
+
+                                <hr />
+                                <p>HTML, CSS, Bootstrap, Firebase</p>
+                                <a href="https://github.com/hanbanana/BookWorm" target="_blank">See Project</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 2nd Column -->
+                    <div class="col-md-6 col-lg-4 item">
+                        <div class="project project-5">
+                            <div class="project-hover">
+                                <h2>Delivery Order App</h2>
+
+                                <hr />
+                                <p>Bootstrap, JavaScript, jQuery, AJAX, MySQL, NPM, Node.js, Handlebars</p>
+                                <a href="https://github.com/hanbanana/DeliveryGate-MySQL-SinglePage" target="_blank">See Project</a>
+                            </div>
+                        </div>
+
+                        <div class="project project-6">
+                            <div class="project-hover">
+                                <h2>Waiting List App</h2>
+
+                                <hr />
+                                <p>jQuery, Node.js</p>
+                                <a href="https://waiting-list-app.herokuapp.com/" target="_blank">See Project</a>
+                            </div>
+                        </div>
+
+                        <div class="project project-7">
+                            <div class="project-hover">
+                                <h2>Note Taker App</h2>
+
+                                <hr />
+                                <p>MongoDB, jQuery, Node.js</p>
+                                <a href="https://github.com/hanbanana/Note-App-Mongo" target="_blank">See Project</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 3rd Column -->
+                    <div class="col-md-6 col-lg-4 item">
+                        <div class="project project-8">
+                            <div class="project-hover">
+                                <h2>Support Ticketing App</h2>
+
+                                <hr />
+                                <p>HTNL, CSS, Bootstrap, Javascript, Node.js, Handlebars</p>
+                                <a href="https://limitless-peak-84535.herokuapp.com/" target="_blank">See Project</a>
+                            </div>
+                        </div>
+
+                        <div class="project project-9">
+                            <div class="project-hover">
+                                <h2>Movie Search React App</h2>
+
+                                <hr />
+                                <p>ReactJS, API</p>
+                                <a href="https://movie-search-react-application.herokuapp.com/" target="_blank">See Project</a>
+                            </div>
+
+                        </div>
+
+                        <div class="project project-10">
+                            <div class="project-hover">
+                                <h2>Lottery Number Generator</h2>
+
+                                <hr />
+                                <p>Javascript, jQuery, Node.js.</p>
+                                <a href="https://github.com/hanbanana/Lottery-Number-Generator-Jquery" target="_blank">See Project</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
         </div>
 
+
         <div class="myContactDiv text-center" id="contactMe" onclick="closeNav()">
-            <br>
-            <h1>Say Hello</h1>
+
             <br><br>
 
             <div class="row">
@@ -269,10 +340,11 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-2">
                         <button type="submit" class="btn" id="sendMessageButton">Send Message</button>
                     </div>
                 </div>
+                <br><br><br><br>
 
             </form>
 
@@ -280,10 +352,10 @@
 
 
 
-        <br><br>
+
         <footer class="site-section bg-light footer" onclick="closeNav()">
             <div class="container">
-
+                <br><br>
                 <div class="row mb-5">
                     <div class="col-md-3" id="footerTitle">
                         <h3 class="footer-title">Han</h3>
@@ -334,7 +406,7 @@
                     <div class="col-12 text-center" id="endFooter">
 
                         <p>Copyright © 2019 All rights reserved | Built by <a href="https://www.google.com"
-                                target="_blank" id="githubLink">H</a></p>
+                                target="_blank" id="githubLink">Han</a></p>
 
 
                     </div>
